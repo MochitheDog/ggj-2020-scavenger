@@ -7,12 +7,19 @@ public class Menu : MonoBehaviour
 {
 
     private bool menuOpen = false;
-    public GameObject myFPSController;
+    public GameObject myFPSController = null;
     MouseLook mouseLook;
 
     private void Start()
     {
-        mouseLook = myFPSController.GetComponent<FirstPersonController>().m_MouseLook;
+        if (myFPSController == null)
+        {
+            mouseLook = null;
+        }
+        else
+        {
+            mouseLook = myFPSController.GetComponent<FirstPersonController>().m_MouseLook;
+        }
     }
 
     private void Update()
@@ -21,7 +28,10 @@ public class Menu : MonoBehaviour
         {
             menuOpen = true;
             // Cursor.lockState = CursorLockMode.None;
-            mouseLook.SetCursorLock(false);
+            if (mouseLook != null)
+            {
+                mouseLook.SetCursorLock(false);
+            }
         }
     }
 
@@ -38,7 +48,11 @@ public class Menu : MonoBehaviour
             {
                 menuOpen = false;
                 //Cursor.lockState = CursorLockMode.Locked;
-                mouseLook.SetCursorLock(true);
+                if (mouseLook != null)
+                {
+                    mouseLook.SetCursorLock(true);
+                }
+                
             }
 
         }
