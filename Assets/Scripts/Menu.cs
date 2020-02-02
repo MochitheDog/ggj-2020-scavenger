@@ -33,6 +33,7 @@ public class Menu : MonoBehaviour
             if (mouseLook == null)
             {
                 Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
             else
             {
