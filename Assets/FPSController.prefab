@@ -406,7 +406,7 @@ MonoBehaviour:
   action: 0
   open: {fileID: 0}
   close: {fileID: 0}
-  pickUp: {fileID: 0}
+  pickUp: {fileID: 8300000, guid: f3ff2f403a527ee40a02d3bda53c2d98, type: 3}
   moveSlot: {fileID: 0}
   drop: {fileID: 0}
   distance: 2.5

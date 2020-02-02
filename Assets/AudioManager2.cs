@@ -131,12 +131,10 @@ public class AudioManager2 : MonoBehaviour
 
 	public void fade(string name, int number, float durationToFade){
 
-		if (name == "pressure") {
-			AudioSource[] pressureSources = this.transform.Find("aPressureManager").GetComponents<AudioSource>();
-			StartCoroutine(FadeAudioSource.StartFade(pressureSources[number], durationToFade, 0));
-		} else if (name == "train") {
-			AudioSource[] trainSources = this.transform.Find("aTrainManager").GetComponents<AudioSource>();
-			StartCoroutine(FadeAudioSource.StartFade(trainSources[number], durationToFade, 0));
+		Debug.Log("fade");
+		if (name == "level") {
+			AudioSource[] levelSources = this.transform.Find("aLevelManager").GetComponents<AudioSource>();
+			StartCoroutine(FadeAudioSource.StartFade(levelSources[number], durationToFade, 0));
 		} else if (name == "ambient") {
 			AudioSource[] ambientSources = this.transform.Find("aAmbientManager").GetComponents<AudioSource>();
 			StartCoroutine(FadeAudioSource.StartFade(ambientSources[number], durationToFade, 0));
