@@ -92,6 +92,8 @@ public class QuantumInventory : MonoBehaviour
                     Gather(hit.collider.GetComponent<QuantumItem>());
                 else if (hit.collider.GetComponent<QuantumContainer>() != null)
                     Container(hit.collider.GetComponent<QuantumContainer>());
+                else if (hit.collider.GetComponent<WinItem>() != null)
+                    Win();
             }
             gameObject.layer = layer;
         }
@@ -102,6 +104,11 @@ public class QuantumInventory : MonoBehaviour
             ActionInventory();
             SetActive(false, true, false);
         }
+    }
+
+    private void Win()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("WinScene");
     }
 
     public void Freeze()
