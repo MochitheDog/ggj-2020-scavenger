@@ -71,7 +71,7 @@ public class QuantumInventory : MonoBehaviour
         t[4] = t[1].Find("_options");
         t[3] = t[4].Find("_moreSlots");
         t[5] = t[1].Find("_docViewer");
-        t[2] = Instantiate<GameObject>(go[2], canvas).transform;
+        //t[2] = Instantiate<GameObject>(go[2], canvas).transform;
         t[6] = t[4].Find("_info");
         sort = t[4].Find("_sort").GetComponent<Dropdown>();
         sort.GetComponent<Dropdown>().onValueChanged.AddListener(delegate { RefreshInventory(); });
@@ -438,26 +438,27 @@ public class QuantumInventory : MonoBehaviour
 
     public void Gather(QuantumItem item)
     {
-        if (inventory.Count >= maxSlots)
-            return;
-        Slot slot = FindSlot(item.item);
-        if (slot == null || !slot.stackable)
-            inventory.Add(new Slot(item));
-        else if (slot != null && slot.stackable && slot.type == item.type)
-            slot.quantity += item.quantity;
+        //if (inventory.Count >= maxSlots)
+        //    return;
+        //Slot slot = FindSlot(item.item);
+        //if (slot == null || !slot.stackable)
+        //    inventory.Add(new Slot(item));
+        //else if (slot != null && slot.stackable && slot.type == item.type)
+        //    slot.quantity += item.quantity;
         PlayFX(pickUp);
+        Parts.numCollected++;
         Destroy(item.gameObject);
     }
 
     public void Gather(Slot item)
     {
-        if (inventory.Count >= maxSlots)
-            return;
-        Slot slot = FindSlot(item.item);
-        if (slot == null || !slot.stackable)
-            inventory.Add(item);
-        else if (slot != null && slot.stackable && slot.type == item.type)
-            slot.quantity += item.quantity;
+        //if (inventory.Count >= maxSlots)
+        //    return;
+        //Slot slot = FindSlot(item.item);
+        //if (slot == null || !slot.stackable)
+        //    inventory.Add(item);
+        //else if (slot != null && slot.stackable && slot.type == item.type)
+        //    slot.quantity += item.quantity;
         PlayFX(pickUp);
     }
 
