@@ -19,6 +19,7 @@ public class UIUpdate : MonoBehaviour
     void Update()
     {
         int numPartsFound = Parts.numCollected;
+        print(Parts.numCollected);
         partsText.text = numPartsFound + staticPartsUI;
     }
 }

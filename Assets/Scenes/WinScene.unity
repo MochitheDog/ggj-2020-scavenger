@@ -246,7 +246,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 6.6}
-  m_SizeDelta: {x: 300, y: 120}
+  m_SizeDelta: {x: 300, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &862140110
 MonoBehaviour:
@@ -283,7 +283,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'You win!
 
-    (Press escape to return to the title)'
+    (Press escape to exit)'
 --- !u!222 &862140111
 CanvasRenderer:
   m_ObjectHideFlags: 0
