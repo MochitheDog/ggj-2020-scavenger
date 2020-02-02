@@ -618,6 +618,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -638,10 +639,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: cf06a97f-86d5-4ffa-9f94-60e7e82ced81
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: ggj-2020
+  organizationId: sami-ma
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
