@@ -7,7 +7,7 @@ public class UIUpdate : MonoBehaviour
     public GameObject textBox;
     private UnityEngine.UI.Text partsText;
     private string staticPartsUI = "/6 parts found";
-    private const string GO_TO_PLATFORM = "All parts found!\nGo back to the red platform to build the ship!";
+    private const string GO_TO_PLATFORM = "All parts found!\nGo back to the red platform to repair the ship!";
 
     // Start is called before the first frame update
     void Start()
