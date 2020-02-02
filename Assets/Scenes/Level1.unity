@@ -738,8 +738,24 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1227456117886532609, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 3}
+      propertyPath: myFirstPersonController
+      value: 
+      objectReference: {fileID: 1582132600}
+    - target: {fileID: 1227456117886532609, guid: 5e9e851c0e142814dac026a256ba2ac0,
+        type: 3}
+      propertyPath: myFPSController
+      value: 
+      objectReference: {fileID: 1582132600}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+--- !u!1 &1582132600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1582132599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2053904931
 PrefabInstance:
   m_ObjectHideFlags: 0
