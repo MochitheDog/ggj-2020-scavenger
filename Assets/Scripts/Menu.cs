@@ -28,7 +28,11 @@ public class Menu : MonoBehaviour
         {
             menuOpen = true;
             // Cursor.lockState = CursorLockMode.None;
-            if (mouseLook != null)
+            if (mouseLook == null)
+            {
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else
             {
                 mouseLook.SetCursorLock(false);
             }
@@ -48,11 +52,15 @@ public class Menu : MonoBehaviour
             {
                 menuOpen = false;
                 //Cursor.lockState = CursorLockMode.Locked;
-                if (mouseLook != null)
+                if (mouseLook == null)
+                {
+                    Cursor.lockState = CursorLockMode.Locked;
+                }
+                else
                 {
                     mouseLook.SetCursorLock(true);
                 }
-                
+
             }
 
         }
