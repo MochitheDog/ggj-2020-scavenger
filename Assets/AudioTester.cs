@@ -7,29 +7,22 @@ public class AudioTester : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+      Debug.Log("AudioTesterStart");
     }
 
     // Update is called once per frame
     void Update()
     {
 
-      if (Input.GetKeyDown(KeyCode.Keypad1)){
-  			FindObjectOfType<AudioManager2>().Play("player", 1);
-  		}
+      // if (Input.GetKeyDown("space"))
+      // {
+      //     Debug.Log("space key was pressed");
+      // }
 
-      if (Input.GetKeyDown(KeyCode.Keypad2)){
-        FindObjectOfType<AudioManager2>().Play("player", 0);
-      }
-
-      if (Input.GetKeyDown(KeyCode.Keypad3)){
-        FindObjectOfType<AudioManager2>().Play("ambient", 0);
-      }
-
-      if (Input.GetKeyDown(KeyCode.Keypad4)){
-        Debug.Log("keypad4");
-        FindObjectOfType<AudioManager2>().Play("level", 0);
-      }
-
+      // if (Input.GetKey("g"))
+      // {
+      //     Debug.Log("g key was pressed");
+      //     FindObjectOfType<AudioManager2>().Play("ambient", 0);
+      // }
     }
 }
