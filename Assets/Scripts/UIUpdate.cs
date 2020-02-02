@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class UIUpdate : MonoBehaviour
 {
-
+    public GameObject textBox;
     private UnityEngine.UI.Text partsText;
     private string staticPartsUI = "/6 parts found";
 
     // Start is called before the first frame update
     void Start()
     {
-        partsText = GameObject.Find("UIParts").GetComponent<UnityEngine.UI.Text>();
+        partsText = textBox.GetComponent<UnityEngine.UI.Text>();
         staticPartsUI = "/" + Parts.totalNum + " parts found";
     }
 
