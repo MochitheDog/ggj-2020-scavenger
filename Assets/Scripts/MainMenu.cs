@@ -33,6 +33,7 @@ public class MainMenu : MonoBehaviour
             credits += "josepharaoh99's 'Sci Fi Interface', https://freesound.org/people/josepharaoh99/sounds/367997/ \n";
             credits += "JarAxe's 'Alarm 4', https://freesound.org/people/JarAxe/sounds/204423/ \n";
             credits += "peepholecircus's 'Sci Fi button beep', https://freesound.org/people/peepholecircus/sounds/196979/ \n";
+            credits += "Davidsraba's 'Coin Pickup Sound', https://freesound.org/people/Davidsraba/sounds/347172/ \n";
 
             textureReady = false;
         }
