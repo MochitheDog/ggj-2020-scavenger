@@ -21,7 +21,11 @@ public class MainMenu : MonoBehaviour
         {
             credits = "Credits\n\n";
             credits += "Developers: IAmTheRedSpy, KamiCreed, Sayaka, Vestrel\n";
-            credits += "Assets:\n";
+            credits += "\n";
+            credits += "Store Assets:\n";
+            credits += "Quantum Development's 'Inventory System (Full)', https://assetstore.unity.com/packages/tools/gui/inventory-system-full-126053 \n";
+            credits += "Ebal Studios's 'Star Sparrow Modular Spaceship', https://assetstore.unity.com/packages/3d/vehicles/space/star-sparrow-modular-spaceship-73167 \n";
+            credits += "Unity Technologies's 'Standard Assets (for Unity 2017.3)', https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351 \n";
             credits += "\n";
             credits += "Music:\n";
             credits += "Moistgoatman's 'Machine dowering down', https://freesound.org/people/Moistgoatman/sounds/269588/ \n";
