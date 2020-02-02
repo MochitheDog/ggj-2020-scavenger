@@ -20,6 +20,8 @@ public class Menu : MonoBehaviour
         {
             mouseLook = myFPSController.GetComponent<FirstPersonController>().m_MouseLook;
         }
+
+        GUI.backgroundColor = Color.black;
     }
 
     private void Update()
