@@ -346,6 +346,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+--- !u!1 &763204812 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+    type: 3}
+  m_PrefabInstance: {fileID: 763204811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &763204813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763204812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d22c0929e4da7d43a44b9c5c56ddf4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSlots: 0
+  interact: 102
+  action: 101
+  open: {fileID: 0}
+  close: {fileID: 0}
+  pickUp: {fileID: 0}
+  moveSlot: {fileID: 0}
+  drop: {fileID: 0}
+  distance: 2.5
 --- !u!1 &840912302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,12 +1034,12 @@ PrefabInstance:
     - target: {fileID: 923573653067940336, guid: 1c07bc1a7c7c0394db180d43d73f5b15,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 15.62
       objectReference: {fileID: 0}
     - target: {fileID: 923573653067940336, guid: 1c07bc1a7c7c0394db180d43d73f5b15,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: 8.8
       objectReference: {fileID: 0}
     - target: {fileID: 923573653067940336, guid: 1c07bc1a7c7c0394db180d43d73f5b15,
         type: 3}
@@ -1056,6 +1083,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c07bc1a7c7c0394db180d43d73f5b15, type: 3}
+--- !u!1 &7325271266739395429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 758674881542137140, guid: 1c07bc1a7c7c0394db180d43d73f5b15,
+    type: 3}
+  m_PrefabInstance: {fileID: 7325271266739395428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7325271266739395430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7325271266739395429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 733f051716701f7438f459d7e11ee3d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: Left Wing
+  type: ' '
+  quantity: 0
+  icon: {fileID: 0}
+  stackable: 0
+  metaData: 
 --- !u!1001 &7887223582470066537
 PrefabInstance:
   m_ObjectHideFlags: 0
