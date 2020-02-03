@@ -15,6 +15,9 @@ public class BuildShipAtPlatform : MonoBehaviour
             print("Spawn Ship");
             Instantiate(completedShip, transform.position + new Vector3(-10.991f, 4.01f, -7.99f), Quaternion.Euler(0,0,0));
             created = true;
+            FindObjectOfType<AudioManager2>().Play("level", 3);
+            FindObjectOfType<AudioManager2>().fade("level", 1, 0.5f);
+            FindObjectOfType<AudioManager2>().fade("level", 2, 0.5f);
         }
     }
 }
