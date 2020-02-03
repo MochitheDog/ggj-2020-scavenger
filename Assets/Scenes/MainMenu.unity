@@ -146,8 +146,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120386279}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -20.33, y: -0, z: 5.89}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -11.74, y: -0, z: 7.29}
+  m_LocalScale: {x: 0.43, y: 0.43, z: 0.43}
   m_Children: []
   m_Father: {fileID: 122014127}
   m_RootOrder: 0
@@ -160,14 +160,16 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120386279}
-  m_Text: Super Beep Boop Adventure
+  m_Text: 'Super Beep
+
+    Boop Adventure'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
-  m_Alignment: 0
+  m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 30
+  m_FontSize: 70
   m_FontStyle: 1
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -274,8 +276,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313807455}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1.73, y: -0, z: -3.25}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.73, y: 0, z: -4.13}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 122014127}
   m_RootOrder: 2
@@ -307,7 +309,7 @@ TextMesh:
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 20
+  m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -362,8 +364,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.1415205, y: 2.136403, z: 0.18545432}
-  m_Center: {x: 1.8483963, y: -1.0668168, z: -0.092727184}
+  m_Size: {x: 10.392744, y: 4.976592, z: 0.18545432}
+  m_Center: {x: 4.9740086, y: -2.4869094, z: -0.092727184}
 --- !u!114 &313807461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -499,13 +501,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652633763}
-  m_LocalRotation: {x: 0.6427876, y: 0, z: 0, w: 0.7660445}
-  m_LocalPosition: {x: -1.96, y: 0.56, z: -0.02}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -1.96, y: 0.04, z: -0.9}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 122014127}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 80, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &652633765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,7 +535,7 @@ TextMesh:
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 20
+  m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -588,8 +590,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.813075, y: 2.231661, z: 0.25938603}
-  m_Center: {x: 2.2186875, y: -1.0365945, z: -0.12969302}
+  m_Size: {x: 11.34603, y: 5.257531, z: 0.25938603}
+  m_Center: {x: 5.485165, y: -2.5495288, z: -0.129693}
 --- !u!114 &652633769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -634,8 +636,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478238794}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.04, y: 0, z: -6.45}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.04, y: 0, z: -7.33}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 122014127}
   m_RootOrder: 3
@@ -651,8 +653,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.688943, y: 2.2343755, z: 0.46703136}
-  m_Center: {x: 3.1710043, y: -1.1171877, z: -0.23351574}
+  m_Size: {x: 16.703426, y: 5.2777085, z: 0.4670314}
+  m_Center: {x: 8.178245, y: -2.638852, z: -0.23351574}
 --- !u!114 &1478238797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -695,7 +697,7 @@ TextMesh:
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 20
+  m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
