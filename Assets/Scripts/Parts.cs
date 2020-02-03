@@ -6,6 +6,7 @@ public class Parts : MonoBehaviour
 {
     public static int numCollected;
     public static int totalNum;
+    public static bool createdShip = false;
     private void Start()
     {
         numCollected = 0;
